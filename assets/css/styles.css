@@ -1,0 +1,128 @@
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container audio {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.btn-overlay {
+  position: absolute; /* Posiciona el botón en relación al contenedor */
+  bottom: 30px; /* Posiciona el botón a 10px de la parte inferior */
+  left: 15px; /* Posiciona el botón a 10px del borde izquierdo */
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Relleno interno del botón */
+  font-size: 16px; /* Tamaño de la fuente */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.time-box {
+  text-align: center;
+  padding: 10px;
+}
+
+.time-value {
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  background-color: transparent;
+}
+
+.time-label {
+  font-size: 12px;
+  color: gold;
+  display: block;
+  margin-top: 5px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.time-box {
+  text-align: center;
+  padding: 10px;
+}
+
+.time-value {
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  background-color: transparent;
+}
+
+.time-label {
+  font-size: 12px;
+  color: gold;
+  display: block;
+  margin-top: 5px;
+}
+
+.image-with-countdown {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.countdown-container {
+  display: inline-flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.time-box {
+  text-align: center;
+}
+
+.time-value {
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  background-color: transparent;
+}
+
+.time-label {
+  font-size: 18px;
+  color: #ffd700;
+  display: block;
+  margin-top: 5px;
+}
+

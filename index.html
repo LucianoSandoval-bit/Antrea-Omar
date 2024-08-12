@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Invitacion boda</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alike&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allan&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="row"><div class="image-container">
+  <img src="assets/img/PincipalEdit.jpeg" alt="Imagen" >
+  <audio id="audio-element">
+    <source src="assets/img/Y2meta.app - Carin Leon - Que Más Puedo Pedir (Video Oficial) (128 kbps).mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+  </audio>
+  <button class="btn-overlay" id="play-button">
+    <i id="playa" class="icon ion-play"></i>
+    <i id="playb" style="display: none;" class="icon ion-pause"></i>
+  </button>
+</div>
+
+<script>
+  document.getElementById("play-button").addEventListener("click", function() {
+    var audio = document.getElementById("audio-element");
+    if (audio.paused) {
+      audio.play();
+      document.getElementById("playa").style.display='none';
+      document.getElementById("playb").style.display='contents';
+    } else {
+        document.getElementById("playb").style.display='none';
+        document.getElementById("playa").style.display='contents';
+      audio.pause();
+    }
+  });
+</script></div>
+    <div class="row">
+        <div class="col d-flex justify-content-md-center align-items-md-center"></div>
+    </div>
+    <div class="row" style="margin: 0px;margin-top: 10px;">
+        <div class="col-auto d-block justify-content-center justify-content-md-center align-items-md-center col-lg-6">
+            <h1 class="text-start d-flex align-items-start" style="margin-top: 25px;font-family: Alike, serif;">EL AMOR NO SE BUSCA, EL MISMO TE ENCUENTRA</h1>
+            <h2 class="d-flex align-items-start" style="font-family: 'Alegreya Sans SC', sans-serif;margin-top: 25px;">Nos encantaría que con la bendición de&nbsp; Luis Eduardo Carbajal&nbsp; Jaime&nbsp; y Sonia Rodríguez Castillo padres de la novia, y Mónica K. Rodríguez gallardo madre del novio, Nos acompañaran el día en que nos unimos en sagrado matrimonio.</h2>
+        </div>
+        <div class="col-auto col-lg-6"><img class="img-fluid" src="assets/img/IMGL0165.jpg"></div>
+    </div>
+    <div class="row" style="margin: 0px;margin-top: 10px;">
+        <div class="col-auto d-block justify-content-center justify-content-md-center align-items-md-center col-lg-6">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="d-flex align-items-start justify-content-lg-center" style="font-family: Alike, serif;margin-top: 25px;">Te esperamos en nuestra boda</h2>
+                    <h2 class="d-flex align-items-start justify-content-lg-center" style="font-family: 'Alegreya Sans SC', sans-serif;margin-top: 25px;">14 de septiembre de 2024</h2><div id="countdown" class="countdown-container">
+  <div class="time-box">
+    <span id="days" class="time-value">00</span>
+    <span class="time-label">Días</span>
+  </div>
+  <div class="time-box">
+    <span id="hours" class="time-value">00</span>
+    <span class="time-label">Horas</span>
+  </div>
+  <div class="time-box">
+    <span id="minutes" class="time-value">00</span>
+    <span class="time-label">Minutos</span>
+  </div>
+  <div class="time-box">
+    <span id="seconds" class="time-value">00</span>
+    <span class="time-label">Segundos</span>
+  </div>
+</div>
+<script>
+  // Establece la fecha objetivo
+  var countDownDate = new Date("Sep 14, 2024 18:00:00").getTime();
+
+  // Actualiza el contador cada segundo
+  var x = setInterval(function() {
+
+    // Obtén la fecha y hora actual
+    var now = new Date().getTime();
+
+    // Calcula la distancia entre la fecha actual y la fecha objetivo
+    var distance = countDownDate - now;
+
+    // Calcula días, horas, minutos y segundos
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Muestra los resultados en los elementos correspondientes
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+
+    // Si la cuenta atrás ha terminado, muestra un mensaje
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").innerHTML = "¡La fecha ha llegado!";
+    }
+  }, 1000);
+</script>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 25px;">
+                <div class="col text-center col-lg-4 col-12" style="margin-top: 5px;margin-bottom: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-building-church" style="font-size: 37px;">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="3" y1="21" x2="21" y2="21"></line>
+                        <path d="M10 21v-4a2 2 0 0 1 4 0v4"></path>
+                        <line x1="10" y1="5" x2="14" y2="5"></line>
+                        <line x1="12" y1="3" x2="12" y2="8"></line>
+                        <path d="M6 21v-7m-2 2l8 -8l8 8m-2 -2v7"></path>
+                    </svg>
+                    <h4>Misa</h4>
+                    <h6><i class="la la-clock-o"></i>&nbsp; 18:00-19:00&nbsp;</h6>
+                    <h6><i class="la la-map-marker"></i>&nbsp; Parroquia&nbsp; &nbsp;templo coronación de nuestra señora</h6><a class="btn btn-primary" role="button" style="color: #ffd700;background: rgb(255,255,255);border-color: #ffd700;margin-top: 6px;" href="https://maps.app.goo.gl/jiEYYdSKFMGDM7Rw8" target="_blank">Mapa</a>
+                </div>
+                <div class="col text-center col-lg-4 col-12" style="margin-top: 5px;margin-bottom: 10px;"><i class="la la-book" style="font-size: 37px;"></i>
+                    <h4>Civil</h4>
+                    <h6><i class="la la-clock-o"></i>&nbsp; 20:00-21:00</h6>
+                    <h6><i class="la la-map-marker"></i>&nbsp; Jardin BK&nbsp; &nbsp;Eventos</h6><a class="btn btn-primary" role="button" style="color: #ffd700;background: rgb(255,255,255);border-color: #ffd700;margin-top: 6px;" href="https://maps.app.goo.gl/in54vWXuZGA8jFac7" target="_blank">Mapa</a>
+                </div>
+                <div class="col text-center col-lg-4 col-12" style="margin-top: 5px;margin-bottom: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-calendar4-event" style="font-size: 37px;">
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"></path>
+                        <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"></path>
+                    </svg>
+                    <h4>Evento</h4>
+                    <h6><i class="la la-clock-o"></i>&nbsp; 21:00-01:00</h6>
+                    <h6><i class="la la-map-marker"></i>&nbsp; BK Eventos</h6><a class="btn btn-primary" role="button" style="color: #ffd700;background: rgb(255,255,255);border-color: #ffd700;margin-top: 6px;" href="https://maps.app.goo.gl/in54vWXuZGA8jFac7" target="_blank">Mapa</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-auto col-lg-6"><img class="img-fluid" src="assets/img/IMGL0344.jpg"></div>
+    </div>
+    <div class="row" style="margin: 0px;margin-top: 10px;">
+        <div class="col-auto d-block justify-content-center justify-content-md-center align-items-md-center col-lg-6">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="d-flex align-items-start justify-content-lg-center" style="font-family: Alike, serif;margin-top: 25px;">AGRADECERÍAMOS MUCHO NOS CONFIRMES TU ​ASISTENCIA.</h2>
+                    <h2 class="d-flex align-items-start justify-content-lg-center" id="PARAQ" style="font-family: 'Alegreya Sans SC', sans-serif;margin-top: 25px;">Para: ROSALINDA</h2>
+                    <h2 class="d-flex align-items-start justify-content-lg-center" id="INVITADOS" style="font-family: 'Alegreya Sans SC', sans-serif;margin-top: 25px;">Invitados: 2</h2><a class="btn btn-primary" role="button" style="color: #ffd700;background: rgb(255,255,255);border-color: #ffd700;margin-top: 6px;" target="_blank" href="https://wa.link/y7bqjn">Confirmar</a>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 25px;">
+                <div class="col text-center col-lg-4 col-12" style="margin-top: 5px;margin-bottom: 10px;">
+                    <h4>Vestimenta</h4>
+                    <h6>Formal</h6><img class="img-fluid" src="assets/img/dresscode.png">
+                </div>
+                <div class="col text-center col-lg-4 col-12" style="margin-top: 5px;margin-bottom: 10px;">
+                    <h4>No niños</h4>
+                    <h6>Para una mejor experiencia hemos&nbsp; decidido reservarnos el derecho de admisión a niños menores&nbsp; de 15 años&nbsp;</h6>
+                </div>
+                <div class="col text-center col-lg-4 col-12" style="margin-top: 5px;margin-bottom: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope-open-heart" style="font-size: 37px;">
+                        <path fill-rule="evenodd" d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.817l3.235 1.94a2.76 2.76 0 0 0-.233 1.027L1 7.384v5.733l3.479-2.087c.15.275.335.553.558.83l-4.002 2.402A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738l-4.002-2.401c.223-.278.408-.556.558-.831L15 13.117V7.383l-3.002 1.801a2.76 2.76 0 0 0-.233-1.026L15 6.217V5.4a1 1 0 0 0-.53-.882l-6-3.2ZM7.06.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"></path>
+                    </svg>
+                    <h6 style="font-size: 15px;">El mejor regalo que podemos recibir es tu compañía en este dia, pero si desean obsequiarnos algo les agradeceríamos en colaborar&nbsp; con el inicio de nuestra nueva etapa.</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-auto col-lg-6"><img class="img-fluid" src="assets/img/FOTO%201.jpg"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center d-flex align-items-start justify-content-lg-center" style="font-family: Alike, serif;margin-top: 25px;margin-bottom: 41px;">Agradecemos de corazón a nuestros padrinos por hacer posible este día tan especial para nosotros.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-lg-3 col-12" style="margin-top: 20px;">
+                    <h1 class="text-center">Padrinos de arras</h1>
+                    <h4 class="text-center">Fernando Ángel Rodríguez Guerra<br>y<br>María de Jesús Gallardo Luna</h4>
+                </div>
+                <div class="col text-center col-lg-3 col-12" style="margin-top: 20px;">
+                    <h1>Padrinos de anillos</h1>
+                    <h4 class="text-center">Santos Martin García Flores<br>y<br>Guillermina Sena de León</h4>
+                </div>
+                <div class="col text-center col-lg-3 col-12" style="margin-top: 20px;">
+                    <h1>Padrinos de lazo</h1>
+                    <h4 class="text-center">Luis Eduardo Carbajal Jaime<br>y<br>Sonia Rodríguez Castillo</h4>
+                </div>
+                <div class="col text-center col-lg-3 col-12" style="margin-top: 20px;">
+                    <h1>Madrina de ramo</h1>
+                    <h4 class="text-center">Miranda Castillo Rodríguez</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+<script>
+    // Obtener los parámetros de la URL
+    const params = new URLSearchParams(window.location.search);
+
+    // Acceder a los valores de los parámetros
+    const nombre = params.get('nombre');
+    const Invitados = params.get('Invitados');
+
+    // Modificar el contenido del HTML usando los parámetros
+    if (nombre) {
+      document.getElementById('PARAQ').textContent = `Para: ${nombre}`;
+    }
+
+    if (Invitados) {
+      document.getElementById('INVITADOS').textContent = `Invitados: ${Invitados} `;
+    }
+  </script>
+</html>
